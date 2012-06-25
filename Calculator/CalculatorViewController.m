@@ -42,6 +42,7 @@
     if (self.userIsInTheMiddleOfEnteringANumber)[self enterPressed];
     double result = [self.brain performOperation:sender.currentTitle];
     NSString *resultString = [NSString stringWithFormat:@"%g", result];
+    // Testing a commit
     self.display.text = resultString;
     
 }
